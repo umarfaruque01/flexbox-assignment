@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 100%;
+            margin: 0 25%;
+        }
+        .search-box{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 45px;
+            padding: 5px 20px;
+            gap: 10px;
+            border: 1px solid #6e7277;
+            border-radius: 50px;
+        }
+        input{
+            height: 100%;
+            width: 80%;
+            background-color: transparent;
+            outline: none;
+            color: white;
+            font-size: 20px;
+            border: 0;
+        }
+        .img{
+            width: 50px;
+        }
+        .google{
+            width: 40%;
+            margin-bottom: 40px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <img src="gogg.png" alt="goggle" class="google">
+        <div class="search-box">
+        <div>
+            <span class="material-symbols-outlined">
+                search
+                </span>
+        </div>
+        <input type="text">
+        <img src="./mic.png" alt="mic" class="img">
+        <img src="./lens.png" alt="mic" class="img">
+    </div>
+    </div>
+</body>
+</html>

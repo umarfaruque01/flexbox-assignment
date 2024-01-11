@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img{
+            border-radius: 50%;
+            border: 5px solid black;
+            position: relative;
+            margin: 0px -20px ;
+
+        }
+        .one{
+            z-index: 5;
+        }
+        .two{
+            z-index: 4;
+        }
+        .three{
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img class="one" src="./alakh sir.jpeg" alt=""></div>
+        <div><img class="two" src="./hitesh choudhry.jpeg" alt=""></div>
+        <div><img class="three" src="./vishwa mohan.jpeg" alt=""></div>
+        <div><img src="./pw.jpeg" alt=""></div>
+    </div>
+</body>
+</html>
